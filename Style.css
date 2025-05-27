@@ -1,0 +1,281 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo {
+	width: 50px;
+	height: auto;
+	position: left;
+	top: 10;
+	left: 0;
+}
+
+/* Gaya untuk gambar di atas header */
+.top-banner {
+  width: 100%;
+  height: center;
+  position: center;
+  overflow: hidden;
+  text-align: center;
+  font-family: Poppins;
+  color: orange;
+  
+}
+
+.top-banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: countain;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+	stroke: 3px;
+	margin-bottom: 20px;
+	line-height: 75px;
+	
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+	text-align: center;
+	padding: 1px;
+	text-decoration:;
+	
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+	padding: 0 15px;
+	text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #34495e, #2c3e50);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    position: center;
+    top: 20;
+    z-index: 1000;
+	width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+	text-align:center;
+	position: center;
+	
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+header .social-media a {
+    color: #f1c40f;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+header .social-media a:hover {
+    color: #e67e22;
+	text-align: center;
+}
+
+
+/* Navigation */
+nav {
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0.5;
+	text-align: centrer
+	
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+	text-align: center;
+	
+}
+
+nav ul li a:hover {
+    background: #f1c40f;
+    color: #2c3e50;
+}
+
+/* Main Content */
+.main {
+    padding: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    border-radius: 2px;
+	
+}
+
+.main section {
+    margin-bottom: 3rem;
+	text-align: center;
+
+}
+
+.main section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+	text-align: center;
+}
+
+.main section p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 500px;
+    line-height: 1.8;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery img {
+    width: calc(33.333% - 1rem);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #2c3e50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #f1c40f;
+    color: #2c3e50;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+#contact ul li a {
+    color: #2c3e50;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+#contact ul li a:hover {
+    color: #f1c40f;
+	
+}
+
+/* Footer */
+footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+
+    .gallery img {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+}
