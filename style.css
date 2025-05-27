@@ -229,7 +229,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0;
   }
 
@@ -238,9 +238,9 @@ footer {
   }
 
   .banner-text h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 40px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0px black;
   }
 
   header h1 {
