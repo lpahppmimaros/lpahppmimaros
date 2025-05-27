@@ -44,6 +44,15 @@
     margin-bottom: 20px;
     line-height: 75px;
 }
+.ornamen {
+    width: 100%;         /* agar penuh sesuai lebar elemen induk */
+    max-width: 600px;    /* batas maksimal lebar gambar */
+    height: auto;        /* biar proporsional */
+    border-radius: 10px; /* sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* bayangan */
+    display: block;
+    margin: 20px auto;   /* posisi tengah */
+}
 
 body {
     font-family: 'Poppins', sans-serif;
