@@ -238,9 +238,9 @@ footer {
   }
 
   .banner-text h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 40px;
-    -webkit-text-stroke: 0px black;
+    -webkit-text-stroke: 1px black;
   }
 
   header h1 {
