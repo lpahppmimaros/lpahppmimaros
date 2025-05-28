@@ -44,15 +44,6 @@
     margin-bottom: 20px;
     line-height: 75px;
 }
-.poster {
-    width: 100%;         /* agar penuh sesuai lebar elemen induk */
-    height: auto;        /* biar proporsional */
-    border-radius: 10px; /* sudut melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* bayangan */
-    display: block;
-    margin: 10px auto;   /* posisi tengah */
-    object-fit: cover;
-}
 
 body {
     font-family: 'Poppins;
@@ -74,6 +65,17 @@ a {
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
+}
+
+.poster {
+    width: 100%;         /* agar penuh sesuai lebar elemen induk */
+    height: auto;        /* biar proporsional */
+    border-radius: 10px; /* sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* bayangan */
+    display: block;
+    margin: 10px auto;   /* posisi tengah */
+    object-fit: cover;
+    
 }
 
 /* Header */
