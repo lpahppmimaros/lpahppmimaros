@@ -72,7 +72,7 @@ a {
     height: auto;        /* biar proporsional */
     border-radius: 10px; /* sudut melengkung */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* bayangan */
-    display: block;
+    display: flex;
     margin: 10px auto;   /* posisi tengah */
     object-fit: cover;
     
