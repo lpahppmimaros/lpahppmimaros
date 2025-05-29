@@ -4,33 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LPA HPPMI Maros</title>
-  <link rel="stylesheet" href="style.css"/>
   <link rel="icon" href="images/logo.png" type="image/png"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
-  <!-- Banner Slider Otomatis -->
+  <!-- Background Blur -->
+  <div class="blur-background"></div>
+
+  <!-- Hamburger Menu -->
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+  <!-- Navigasi -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#documentation">Dokumentasi</a></li>
+      <li><a href="#info">Informasi</a></li>
+      <li><a href="#contact">Kontak</a></li>
+      <li><a href="https://docs.google.com/forms/d/1Pzq83GznHzPqCQdEf74Tma7fzKNhzYp5gAkRjcuW_wg/edit?usp=drivesdk">Daftar Ornamen XI</a></li>
+    </ul>
+  </nav>
+
+  <!-- Slider Otomatis -->
   <div class="slider-auto">
     <div class="slides">
-      <div class="slide"><img src="images/kegiatan1.JPG" alt="Slide 1"><div class="caption"><h1>SELAMAT DATANG</h1><p>LPA HPPMI Maros - Peduli Alam</p></div></div>
-      <div class="slide"><img src="images/kegiatan2.jpg" alt="Slide 2"><div class="caption"><h1>AKSI NYATA</h1><p>Bersama menjaga bumi</p></div></div>
-      <div class="slide"><img src="images/kegiatan3.jpg" alt="Slide 3"><div class="caption"><h1>JELAJAH ALAM</h1><p>Petualangan & Pelestarian</p></div></div>
+      <div class="slide">
+        <img src="images/kegiatan1.JPG" alt="Slide 1">
+        <div class="caption">
+          <h1>SELAMAT DATANG</h1>
+          <p>LPA HPPMI Maros - Peduli Alam</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/kegiatan2.jpg" alt="Slide 2">
+        <div class="caption">
+          <h1>AKSI NYATA</h1>
+          <p>Bersama menjaga bumi</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/kegiatan3.jpg" alt="Slide 3">
+        <div class="caption">
+          <h1>JELAJAH ALAM</h1>
+          <p>Petualangan & Pelestarian</p>
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- Header -->
   <header>
-    <div class="container">
-      <img src="images/logo.png" class="logo" alt="Logo LPA"/>
-      <h1>LEMBAGA PENCINTA ALAM HPPMI MAROS</h1>
-      <p>Jl. Cempaka No. 89, Kab. Maros, Sulawesi Selatan</p>
-      <div class="social-media">
-        <a href="https://facebook.com/lpa.hppmimaros" target="_blank">Facebook</a> |
-        <a href="https://instagram.com/lpahppmimaros" target="_blank">Instagram</a> |
-        <a href="mailto:lpahppmimaros89@gmail.com">Email</a>
-      </div>
+    <img src="images/logo.png" class="logo" alt="Logo LPA"/>
+    <h1>LEMBAGA PENCINTA ALAM HPPMI MAROS</h1>
+    <p>Jl. Cempaka No. 89, Kab. Maros, Sulawesi Selatan</p>
+    <div class="social-media">
+      <a href="https://facebook.com/lpa.hppmimaros" target="_blank">Facebook</a> |
+      <a href="https://instagram.com/lpahppmimaros" target="_blank">Instagram</a> |
+      <a href="mailto:lpahppmimaros89@gmail.com">Email</a>
     </div>
   </header>
 
@@ -38,19 +72,6 @@
   <section class="gambar-bawah-header">
     <img src="images/ornamen.jpeg" alt="Ornamen"/>
   </section>
-
-  <!-- Navigasi -->
-  <nav>
-    <ul>
-      <li><a href="#about">Tentang</a></li>
-      <li><a href="#documentation">Dokumentasi</a></li>
-      <li><a href="#info">Informasi</a></li>
-      <li><a href="#contact">Kontak</a></li>  
-      <li><a href="https://docs.google.com/forms/d/1Pzq83GznHzPqCQdEf74Tma7fzKNhzYp5gAkRjcuW_wg/edit?usp=drivesdk">Daftar Ornamen XI</a></li> <!-- Uncomment jika bagian ornamen tersedia -->
-        </ul>
-
-    </ul>
-  </nav>
 
   <!-- Main -->
   <main class="main">
@@ -91,7 +112,6 @@
   <footer>
     <p>&copy; 2024 LPA HPPMI Maros. Semua Hak Dilindungi.</p>
   </footer>
-
 </body>
 </html>
 
