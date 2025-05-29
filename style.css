@@ -72,6 +72,27 @@ header {
   padding: 1rem;
 }
 
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+header .social-media a {
+    color: #f1c40f;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+header .social-media a:hover {
+    color: #e67e22;
+
 .logo {
   width: 60px;
   margin-bottom: 0.5rem;
